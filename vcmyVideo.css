@@ -1,0 +1,90 @@
+#hw1_stage, #hw2_stage {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    z-index: 100;
+    background: none transparent scroll repeat 0% 0%\9;
+    overflow: hidden;
+    margin-bottom: 1.5%;
+}
+.video_box {
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+}
+#fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    top: 0;
+    right: 0;
+}
+#fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+#fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+}
+#fancybox-overlay {
+    background-color: #000!important;
+}
+#fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
+}
+#fancybox-wrap {
+    padding: 0;
+}
+#fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1101;
+    outline: none;
+    display: none;
+}
+#player_wrapper {
+    height: 540px;
+    width: 960px;
+    display: block;
+    overflow: hidden;
+}
+#fancybox-close {
+    top: 20px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+}
+#fancybox-close {
+    position: absolute;
+    background: transparent url("./hw1_sprite.png") -93px -41px;
+    background-repeat: no-repeat;
+    background-color: #6f6f6f;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+}
